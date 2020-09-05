@@ -1,0 +1,181 @@
+#showcase {
+  height: 450px;
+}
+
+.showcase-content {
+  width: 80%;
+  top: 40%;
+}
+
+.showcase-content .l-heading {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.showcase-content .lead {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.showcase-content .btn {
+  padding: .8rem 2rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.item {
+ margin-bottom: 2rem;
+}
+
+
+#who {
+  height: 500px;
+  padding-bottom: 2rem;
+}
+
+.who-img {
+  flex: 0 0 50%;
+  height: 500px;
+}
+
+#clients {
+  padding: 6rem 0;
+}
+
+#clients .items{
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+}
+
+
+.img-flud {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+
+.py-1 {
+  background-color: #f1f1f1;
+  padding: 1rem;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .contact-form {
+  flex: 0 0 50%;
+}
+
+#contact .map {
+  flex: 0 0 50%;
+}
+
+/* Smartphones */
+@media(max-width: 568px) {
+  #showcase {
+    height: 400px;
+  }
+  .showcase-content .l-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+  }
+  
+  .showcase-content .lead {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+#navbar ul {
+    display:none;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  
+#navbar ul.show {
+    display:flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  ul .item.show {
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+
+
+  ul li {
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+  
+  li a {
+    color: #fff;
+    text-decoration: none;
+    padding: .7rem 5rem;
+    font-family: inherit;
+  }
+
+  .toggle-bar {
+    display: block;
+  }
+
+  #what .m-heading {
+    padding-top: 1rem;
+  }
+
+  
+
+
+  #who {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    height: 800px
+  }
+
+  .who-img {
+    flex: 0 0 50%;
+  }
+  
+  .who-text{
+    color: #fff;
+    padding: 1rem;
+  }
+
+  #clients .m-heading {
+    padding-top: .5rem;
+  }
+
+  
+#clients .items{
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+} 
+  
+}
